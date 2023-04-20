@@ -1,0 +1,108 @@
+@import "variables";
+@import "functions";
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.container {
+    margin: 25px auto auto 25px;
+    background-color: $container-bg-color;
+    border: 2px solid;
+    padding: 10px;
+
+}
+
+.personal-info-col {
+    .box {
+        background-color: $personal-col-bg-color;
+    
+        border: 2px solid;
+        .row {
+            padding: 10px;
+            img{
+                width: 100%;
+            }
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            h3 {
+                color: $personal-header-color;
+                font-weight: bold;
+            }
+            
+        }
+        .languages-row {
+            ul {
+                list-style: none;
+                li{
+                    font-weight: bold;
+                    padding-top: 10px;
+                }
+                .english::after{
+                    @include percentage-bar(90%, lightblue);
+                }
+                .spanish::after{
+                    @include percentage-bar(100%, lightblue);
+                }
+                .french::after{
+                    @include percentage-bar(60%, lightblue);
+                }
+            }
+        }
+        .personal-skills-row{
+            ul{
+                margin-left: 20px;
+                li{
+                    font-weight: bold;
+                }
+            }
+        }
+        .profile-pic-row{
+            padding: 0;
+        }
+        .contact-info-row{
+            span{
+                padding: 10px;
+                margin-left: 5px;
+                font-weight: bold;
+                display: inline-block;
+                vertical-align: middle;
+
+                i{
+                    display: inline-block;
+                    vertical-align: middle;
+                    font-size: 20px;
+                }
+                a {
+                    color: antiquewhite;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        .separator{
+            @include separator-line($margin:5%);
+        }
+    }
+}
+
+.profesional-info-col {
+    .row {
+
+        h3 {
+            font-weight: bold;
+        }
+    }
+
+    .separator {
+        @include separator-line();
+    }
+}
+
+
+

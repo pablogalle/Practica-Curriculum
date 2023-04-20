@@ -1,0 +1,15 @@
+@mixin percentage-bar($width: 100%, $color: #900, $height: 4px) {
+    content: '';
+    display: block;
+    width: $width;
+    height: $height;
+    background-color: $color;
+}
+
+@mixin separator-line($margin: 0) {
+    display: block;
+    width: 90%;
+    margin-left: $margin;
+    height: 2px;
+    background-color: $separator-color;
+}

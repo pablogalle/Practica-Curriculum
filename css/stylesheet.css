@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 25px auto auto 25px;
+  background-color: whitesmoke;
+  border: 2px solid;
+  padding: 10px;
+}
+
+.personal-info-col .box {
+  background-color: grey;
+  border: 2px solid;
+}
+.personal-info-col .box .row {
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.personal-info-col .box .row img {
+  width: 100%;
+}
+.personal-info-col .box .row h3 {
+  color: whitesmoke;
+  font-weight: bold;
+}
+.personal-info-col .box .languages-row ul {
+  list-style: none;
+}
+.personal-info-col .box .languages-row ul li {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.personal-info-col .box .languages-row ul .english::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 4px;
+  background-color: lightblue;
+}
+.personal-info-col .box .languages-row ul .spanish::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: lightblue;
+}
+.personal-info-col .box .languages-row ul .french::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background-color: lightblue;
+}
+.personal-info-col .box .personal-skills-row ul {
+  margin-left: 20px;
+}
+.personal-info-col .box .personal-skills-row ul li {
+  font-weight: bold;
+}
+.personal-info-col .box .profile-pic-row {
+  padding: 0;
+}
+.personal-info-col .box .contact-info-row span {
+  padding: 10px;
+  margin-left: 5px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+.personal-info-col .box .contact-info-row span i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+}
+.personal-info-col .box .contact-info-row span a {
+  color: antiquewhite;
+  font-weight: bold;
+  text-decoration: none;
+}
+.personal-info-col .box .separator {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  height: 2px;
+  background-color: rgb(61, 61, 61);
+}
+
+.profesional-info-col .row h3 {
+  font-weight: bold;
+}
+.profesional-info-col .separator {
+  display: block;
+  width: 90%;
+  margin-left: 0;
+  height: 2px;
+  background-color: rgb(61, 61, 61);
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
