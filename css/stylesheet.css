@@ -38,21 +38,21 @@
   display: block;
   width: 90%;
   height: 4px;
-  background-color: lightblue;
+  background-color: white;
 }
 .personal-info-col .box .languages-row ul .spanish::after {
   content: "";
   display: block;
   width: 100%;
   height: 4px;
-  background-color: lightblue;
+  background-color: white;
 }
 .personal-info-col .box .languages-row ul .french::after {
   content: "";
   display: block;
   width: 60%;
   height: 4px;
-  background-color: lightblue;
+  background-color: white;
 }
 .personal-info-col .box .personal-skills-row ul {
   margin-left: 20px;
@@ -73,12 +73,12 @@
 .personal-info-col .box .contact-info-row span i {
   display: inline-block;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 30px;
+  margin-right: 15px;
 }
 .personal-info-col .box .contact-info-row span a {
-  color: antiquewhite;
+  color: bisque;
   font-weight: bold;
-  text-decoration: none;
 }
 .personal-info-col .box .separator {
   display: block;

@@ -43,13 +43,13 @@
                     padding-top: 10px;
                 }
                 .english::after{
-                    @include percentage-bar(90%, lightblue);
+                    @include percentage-bar(90%);
                 }
                 .spanish::after{
-                    @include percentage-bar(100%, lightblue);
+                    @include percentage-bar(100%);
                 }
                 .french::after{
-                    @include percentage-bar(60%, lightblue);
+                    @include percentage-bar(60%);
                 }
             }
         }
@@ -75,12 +75,13 @@
                 i{
                     display: inline-block;
                     vertical-align: middle;
-                    font-size: 20px;
+                    font-size: 30px;
+                    margin-right: 15px;
                 }
                 a {
-                    color: antiquewhite;
+                    color: bisque;
                     font-weight: bold;
-                    text-decoration: none;
+                    
                 }
             }
         }

@@ -1,4 +1,4 @@
-@mixin percentage-bar($width: 100%, $color: #900, $height: 4px) {
+@mixin percentage-bar($width: 100%, $color: white, $height: 4px) {
     content: '';
     display: block;
     width: $width;
