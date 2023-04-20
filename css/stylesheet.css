@@ -88,8 +88,107 @@
   background-color: rgb(61, 61, 61);
 }
 
+.profesional-info-col .row {
+  padding: 10px 0 10px 0;
+}
+.profesional-info-col .row h1,
 .profesional-info-col .row h3 {
   font-weight: bold;
+}
+.profesional-info-col .row h2,
+.profesional-info-col .row h4 {
+  font-weight: lighter;
+}
+.profesional-info-col .row .skills-list {
+  list-style: none;
+}
+.profesional-info-col .row .skills-list li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.profesional-info-col .row .skills-list li img {
+  width: 50px;
+}
+.profesional-info-col .row .skills-list li .row .progress {
+  margin-top: 20px;
+}
+.profesional-info-col .row .skills-list li .java .progress {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 10px;
+  background-color: lightblue;
+}
+.profesional-info-col .row .skills-list li .android-studio .progress {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 10px;
+  background-color: green;
+}
+.profesional-info-col .row .skills-list li .c-sharp .progress {
+  content: "";
+  display: block;
+  width: 44%;
+  height: 10px;
+  background-color: navy;
+}
+.profesional-info-col .row .skills-list li .angular .progress {
+  content: "";
+  display: block;
+  width: 48%;
+  height: 10px;
+  background-color: darkred;
+}
+.profesional-info-col .row .hobbies-row .col-md-4 {
+  text-align: center;
+}
+.profesional-info-col .row .hobbies-row .col-md-4 img {
+  text-align: center;
+  height: 150px;
+  width: 150px;
+}
+.profesional-info-col .timeline-row ul {
+  position: relative;
+}
+.profesional-info-col .timeline-row ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 5px;
+}
+.profesional-info-col .timeline-row ul li::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: solid 2px black;
+  background-color: white;
+  position: absolute;
+  top: 5px;
+  left: 24.5px;
+  border-radius: 50%;
+}
+.profesional-info-col .timeline-row ul::before {
+  content: "";
+  display: block;
+  width: 3px;
+  height: 100%;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+.profesional-info-col .timeline-row .timeline .fecha {
+  position: absolute;
+  top: 0;
+  left: -80px;
+}
+.profesional-info-col .timeline-row .timeline p {
+  width: 300px;
+  padding-left: 50px;
+}
+.profesional-info-col .timeline-row .timeline {
+  margin-left: 100px;
 }
 .profesional-info-col .separator {
   display: block;
